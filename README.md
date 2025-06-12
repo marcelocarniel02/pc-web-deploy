@@ -59,7 +59,7 @@ sudo nano app.conf
 
 ```
 <VirtualHost *:80>
-    ServerName [ip-da-sua-vm]
+    ServerName 18.209.24.119
     DocumentRoot /var/www/html/public
 
     <Directory /var/www/html/public>
@@ -97,3 +97,4 @@ php artisan migrate
 sudo chmod 777 -Rf storage
 ```
 
+marcelo
